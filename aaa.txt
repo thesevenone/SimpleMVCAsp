@@ -1,0 +1,33 @@
+ @{ 
+           string[] anggota = { "aditya", "Pratama", "Badra" };
+           int i = Array.IndexOf(anggota, "aditya") ;
+           int len = anggota.Length;
+           string x = anggota[2 - 1];
+       }
+
+        @foreach (var orang in anggota)
+        {
+            <p>@orang</p>
+        }
+
+       <p>Jumlkah nama pada member adalah @len</p>
+       <p>orang pada index ke 1 @x</p>
+       <p>adit ada pada posisi @i</p>
+	   
+	   
+	   
+	   
+	    @{ 
+        var harga = 400;
+    }
+    <div>
+        @if(harga > 350)
+        {
+            <p>Harganya tinggi</p>
+        }
+        else
+        {
+            <p>Harganya biasa saja</p>
+        }
+
+    </div>

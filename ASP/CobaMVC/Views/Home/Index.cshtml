@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+@model CobaMVC.Models.Visitor
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>aaa</title>
+</head>
+<body>
+    <div>
+        <h1>Percobaan MVC Pertama</h1> 
+        @using (Html.BeginForm())
+        {
+            <p>
+                @Html.LabelFor(m => m.Nama)
+                @Html.TextBoxFor(m => m.Nama)
+            </p>
+            <p>
+                @Html.LabelFor(m => m.Alamat)
+                @Html.TextBoxFor(m => m.Alamat)
+            </p>
+            <p>
+                @ViewBag.Pesan
+            </p>
+            <p>
+                <input type="submit" value="kirim"/>
+            </p>
+        }
+    </div>
+</body>
+</html>

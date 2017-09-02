@@ -1,0 +1,46 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    @{ 
+        var weekday = DateTime.Now.DayOfWeek;
+        var day = weekday.ToString();
+        var message = "";
+    }
+   <div>
+       @switch (day)
+       {
+           case "Monday":
+               message = "This is first weekday";
+               break;
+           case "Tuesday":
+               message = "This is second weekday";
+               break;
+           case "Wednesday":
+               message = "This is third weekday";
+               break;
+           case "Thursday":
+               message = "This is forth weekday";
+               break;
+           case "Friday":
+               message = "This is fifth weekday";
+               break;
+           case "Saturday":
+               message = "This is sixth weekday";
+               break;
+           case "Sunday":
+               message = "This is seventh weekday";
+               break;
+       }
+       <p>@message</p>
+   </div>
+</body>
+</html>

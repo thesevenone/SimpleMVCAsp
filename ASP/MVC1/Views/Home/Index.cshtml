@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+@model MVC1.Models.Visitor
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Coba MVC</title>
+</head>
+<body>
+    <div>
+        <h1>Data Diri</h1>
+        @using (Html.BeginForm())
+        {
+            <p>
+                @Html.LabelFor(m => m.Nama)
+                @Html.TextBoxFor(m => m.Nama)
+            </p>
+            <p>
+                @Html.LabelFor(m => m.Alamat)
+                @Html.TextBoxFor(m => m.Alamat)
+            </p>
+            <p>
+                @Html.LabelFor(m => m.No_Tlp)
+                @Html.TextBoxFor(m => m.No_Tlp)
+            </p>
+            <p>
+                @ViewBag.Pesan
+            </p>
+            <p>
+                <input type="submit" value="kirim" />
+            </p>
+        }
+    </div>
+</body>
+</html>

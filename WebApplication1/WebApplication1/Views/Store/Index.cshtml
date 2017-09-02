@@ -1,0 +1,17 @@
+﻿@model IEnumerable<WebApplication1.Models.Genre>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index nya</h2>
+<p>
+    Select from @Model.Count() genres:
+</p>
+
+<p>
+@foreach (var genre in Model)
+{
+    <li>@genre.Name</li>
+}
+</p>

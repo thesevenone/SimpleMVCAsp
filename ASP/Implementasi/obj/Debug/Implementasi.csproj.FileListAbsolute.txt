@@ -1,0 +1,7 @@
+D:\Handi\kursus ASP.NET\ASP\Implementasi\bin\Implementasi.dll
+D:\Handi\kursus ASP.NET\ASP\Implementasi\bin\Implementasi.pdb
+D:\Handi\kursus ASP.NET\ASP\Implementasi\obj\Debug\Implementasi.dll
+D:\Handi\kursus ASP.NET\ASP\Implementasi\obj\Debug\Implementasi.pdb
+D:\Handi\kursus ASP.NET\ASP\Implementasi\bin\Implementasi.dll.config
+D:\Handi\kursus ASP.NET\ASP\Implementasi\obj\Debug\Implementasi.csprojResolveAssemblyReference.cache
+D:\Handi\kursus ASP.NET\ASP\Implementasi\obj\Debug\Implementasi.csproj.CoreCompileInputs.cache
